@@ -7,7 +7,7 @@ def main(num):
     code1=''
     for i in range(0,num):
         index=random.randint(0,62)
-        #result.extend(code[index])
+        #result.append(code[index])
         code1=code1+code[index]
 
     return code1
