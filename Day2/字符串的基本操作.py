@@ -35,6 +35,10 @@ str3="   rutrijtio  "
 print(str3.strip())
 #以i来分割字符串,分割成2+1个字符串，返回值是列表
 print(str3.split("i",2))
-
-
-
+#将列表转换为字符串
+str5="".join(["i","j","y","ii"])
+print(str5)
+#字符串的+运算
+str6="jkk"
+str6=str6+"jkjkiio"
+print(str6)
